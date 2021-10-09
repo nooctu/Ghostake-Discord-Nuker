@@ -13,8 +13,8 @@ bot.remove_command("help")
 
 
 colorama.init()
-token = "TOKEN DE LA VICTIMA"
-servername= "NICK DE SERVERS QUE SPAMEARA"
+token = "TOKEN HERE"
+servername= "SERVER NICK"
 
 headers = {
  'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12) Gecko/20050915 Firefox/1.0.7',
@@ -237,10 +237,6 @@ def Home():
    tokenstress()
   if shit == '9':
     exit()
-
-#=======Aclaraciones:
-#=======La funcion "to_back" sirve para que despues que ejecutes un comando, te envie directamente de nuevo al banner para ejecutar mas comandos.
-#=======La decision de como atacar es tuya, como dije arriba puedes ejecutar "destroy" o "tokenfuck" y se te facilita el trabajo, pero bueno todo es como tu lo decidas. (Recomiendo mas que usen el destroy.)
 
 
 bot.run(token, bot = False)
