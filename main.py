@@ -13,8 +13,8 @@ bot.remove_command("help")
 
 
 colorama.init()
-token = "ODk2MTI1NDEwNTI0NDEzOTky.YWCkAA.gNO9P-jM3lFHg0WhEkyYwhUq640"
-servername= "FUCKED BY NOCTU"
+token = "TOKEN HERE"
+servername= "SERVER HERE"
 
 headers = {
  'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12) Gecko/20050915 Firefox/1.0.7',
